@@ -1,0 +1,234 @@
+
+
+
+* {
+background: #f3f5fc;
+font-family: 'Inter';
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+
+
+
+
+}
+
+.logo{
+    padding-top: 40px ;
+  
+    margin-left: 84px;
+    width: 2%;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    }
+
+.mensaje{
+    padding-left: 140px;
+}
+#entrada{
+    border: none;
+    color: #0a3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    width: 100%;
+}
+
+#entrada::placeholder{
+    color: #0a3871;
+}
+#entrada:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top:18px ;
+}
+.info{
+    
+}
+.informacion{
+    color: #495057;
+    font-size: 18px;
+}
+.criptografar{
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    font-size: 16px;
+    transition: 2ms;
+}
+.descriptografar:hover,
+.criptografar:hover{
+background: linear-gradient(90deg,rgb(20%,40%,60%),rgb(60%,20%,40%));
+color: white;
+}
+.descriptografar{
+    background-color: #f3f5fc;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+.respuesta{
+    width: 400px;
+    height: 80%;
+    top: 40px;
+    background-color: white;
+    position: absolute;
+    margin-left: 60%;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    padding: 32px;
+}
+
+::placeholder{
+    color: #495057;
+}
+
+#salida{
+    width: 100%;
+    background-color: white;
+    border: none;
+    color: #495057;
+    height: 607px;
+
+}
+
+#salida:focus{
+    outline: none;
+}
+
+.copiar{
+    background-color: white;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 32px;
+    margin-bottom: 0;
+
+}
+.existe{
+    display: none;
+    background-color: white;
+}
+.noexiste{
+    background-color: white;
+}
+.img-noexiste{
+    width: 100%;
+    height: 304px;
+    margin-top: 211px;
+}
+h5{
+    font-weight: bold;
+    font-size: 24px;
+    
+    text-align: center;
+    color: #343A40;
+    background: white;
+}
+.informacion2{
+    color: #495057;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 90px;
+    background: white;
+}
+
+@media screen and (max-width: 780px) {
+   .logo{
+    margin-left: 40px;
+    width: 3%;
+   }
+    main{
+        margin: 40px;
+        display: block;
+    }
+    .mensaje{
+        padding-left: 0;
+    }
+    .respuesta{
+        position: relative;
+        margin-left: 0;
+        width: auto;
+        height: auto;
+        margin-bottom: 80px;
+    }
+    #salida{
+        height: auto;
+    }
+    .informacion2{
+        margin-bottom: 0;
+     }
+    .copiar{
+    margin-top: auto;
+    }
+    .existe{
+        height: auto;
+    }
+    .img-noexiste{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    .logo{
+     margin-left: 16px;
+     width: 9%;
+    }
+     main{
+         margin: 16px;
+         display: block;
+     }
+     .mensaje{
+         padding-left: 0;
+     }
+     .respuesta{
+         position: relative;
+         margin-left: 0;
+         width: auto;
+         height: auto;
+         margin-bottom: 80px;
+     }
+     #salida{
+        height: auto;
+    }
+     .informacion2{
+        margin-bottom: 0;
+     }
+     .copiar{
+     margin-top: auto;
+     }
+     .existe{
+         height: auto;
+     }
+     .img-noexiste{
+         display: none;
+     }
+     .botones{
+        display: block;
+     }
+     .descriptografar{
+        margin-left: 0;
+        margin-top: 24px;
+     }
+
+ }
