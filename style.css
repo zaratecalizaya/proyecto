@@ -180,11 +180,11 @@ h5{
          padding-left: 40px;
      }
      #entrada{
-        margin-top: 20px;
+        margin-top: 80px;
      }
      .respuesta{
-         margin-left: 630px;
-         width: auto;
+         margin-left: 730px;
+         
          height: auto;
          margin-bottom: 80px;
      }
@@ -204,7 +204,7 @@ h5{
         width:56%;
     }
     .informacion2{
-        margin-bottom: 80px;
+        margin-bottom: 250px;
     }
  }
  
