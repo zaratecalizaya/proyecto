@@ -35,7 +35,7 @@ main{
     }
 
 .mensaje{
-    padding-left: 900px;
+    padding-left: 80px;
 }
 #entrada{
     border: none;
@@ -93,7 +93,7 @@ color: white;
 
 .respuesta{
     width: 400px;
-    height: 80%;
+    height: 944px;
     top: 40px;
     background-color: white;
     position: absolute;
@@ -139,6 +139,7 @@ color: white;
 }
 .noexiste{
     background-color: white;
+    height: auto;
 }
 .img-noexiste{
     width: 100%;
