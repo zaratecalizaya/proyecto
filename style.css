@@ -246,12 +246,14 @@ h5{
      }
      .botones{
         display: block;
-        width: auto;
+     width: 100%;
      }
+
      .descriptografar{
         margin-left: 0;
         margin-top: 24px;
-     }
+
+    }
      .informacion{
         font-size: 12px;
     }
