@@ -35,7 +35,7 @@ main{
     }
 
 .mensaje{
-    padding-left: 140px;
+    padding-right: 40px;
 }
 #entrada{
     border: none;
@@ -92,7 +92,7 @@ color: white;
 }
 
 .respuesta{
-    width: 400px;
+    width: 350px;
     height: 80%;
     top: 40px;
     background-color: white;
@@ -204,7 +204,11 @@ h5{
     
 }
 
-@media screen and (max-width: 413px) {
+
+
+
+
+@media screen and (max-width: 379px) {
     .logo{
       width: 9%;
     }
@@ -242,6 +246,7 @@ h5{
      }
      .botones{
         display: block;
+        width: auto;
      }
      .descriptografar{
         margin-left: 0;
