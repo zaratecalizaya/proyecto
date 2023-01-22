@@ -35,12 +35,12 @@ main{
     }
 
 .mensaje{
-    padding-left: 80px;
+    padding-left: 140px;
 }
 #entrada{
     border: none;
     color: #0a3871;
-    margin-top: 90px;
+    margin-top: 80px;
     text-transform: lowercase;
     width: 100%;
 }
@@ -93,7 +93,7 @@ color: white;
 
 .respuesta{
     width: 400px;
-    height: 944px;
+    height: 80%;
     top: 40px;
     background-color: white;
     position: absolute;
@@ -139,17 +139,16 @@ color: white;
 }
 .noexiste{
     background-color: white;
-    height: auto;
 }
 .img-noexiste{
     width: 100%;
-    height: 304px;
-    margin-top: 211px;
+    height: 274px;
+    margin-top: 150px;
 }
 h5{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 24px;
-    
+    line-height: 28.8px;
     text-align: center;
     color: #343A40;
     background: white;
@@ -160,7 +159,55 @@ h5{
     font-size: 16px;
     margin-bottom: 90px;
     background: white;
+    line-height: 24px;
+    margin-top: 16px;
 }
+
+
+@media screen and (max-width: 1025px) {
+    .logo{
+     width: 3%;
+    }
+    .titulo{
+     margin-left: 40px;
+     
+    }
+     main{
+         margin: 40px;
+         display: block;
+     }
+     .mensaje{
+         padding-left: 40px;
+     }
+     #entrada{
+        margin-top: 20px;
+     }
+     .respuesta{
+         margin-left: 630px;
+         width: auto;
+         height: auto;
+         margin-bottom: 80px;
+     }
+     #salida{
+         height: auto;
+     }
+     .informacion2{
+         margin-bottom: 0;
+      }
+     .copiar{
+     margin-top: auto;
+     }
+     .existe{
+         height: auto;
+     }
+    .botones{
+        width:56%;
+    }
+    .informacion2{
+        margin-bottom: 80px;
+    }
+ }
+ 
 
 @media screen and (max-width: 780px) {
    .logo{
