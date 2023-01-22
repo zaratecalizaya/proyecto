@@ -35,7 +35,7 @@ main{
     }
 
 .mensaje{
-    padding-right: 40px;
+    padding-left: 80px;
 }
 #entrada{
     border: none;
@@ -55,9 +55,7 @@ main{
 .botones{
     display: flex;
     margin-top:18px ;
-}
-.info{
-    
+
 }
 .informacion{
     color: #495057;
@@ -93,7 +91,7 @@ color: white;
 
 .respuesta{
     width: 350px;
-    height: 80%;
+    
     top: 40px;
     background-color: white;
     position: absolute;
@@ -139,6 +137,7 @@ color: white;
 }
 .noexiste{
     background-color: white;
+   
 }
 .img-noexiste{
     width: 100%;
