@@ -1,4 +1,4 @@
-let vocales=["a","e","i","o","u"];
+
 
 function encriptandolo(){
 const mensaje=document.getElementById("entrada").value;    
@@ -31,7 +31,8 @@ const mensaje=document.getElementById("entrada").value;
 
 function desencriptandolo(){
 
-    const mensaje=document.getElementById("entrada").value;    
+    const mensaje=document.getElementById("entrada").value;   
+    console.log(mensaje); 
         if(mensaje!=""){
 
             let mapObj={
@@ -45,15 +46,17 @@ function desencriptandolo(){
             encriptado= mensaje.replace(/ai|enter|imes|ober|ufat/g,function(matched){
                 return mapObj[matched];
             })
+            
             document.getElementById("salida").innerHTML=encriptado;
+            document.getElementById('existe').style.display="block";
+            document.getElementById('noexiste').style.display="none";
             
         }else{
-        
+            
             document.getElementById('existe').style.display="none";
             document.getElementById('noexiste').style.display="block";
     
         }
-    
     }
 
 
